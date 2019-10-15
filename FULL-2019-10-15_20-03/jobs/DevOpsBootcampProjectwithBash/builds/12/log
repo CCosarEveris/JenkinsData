@@ -1,0 +1,10 @@
+Started by user [8mha:////4MK/bBkIAsFQ5nD0nolEDXjIgt+N6VuwPyLZ37YNmCgOAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL95OT84sSi9EQAXLuKhcMAAAA=[0mChristian Cósar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DevOpsBootcampProjectwithBash
+[DevOpsBootcampProjectwithBash] $ /bin/sh -xe /tmp/jenkins9025837815881362899.sh
++ pwd
+/var/jenkins_home/workspace/DevOpsBootcampProjectwithBash
++ //
+/tmp/jenkins9025837815881362899.sh: 2: /tmp/jenkins9025837815881362899.sh: //: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
