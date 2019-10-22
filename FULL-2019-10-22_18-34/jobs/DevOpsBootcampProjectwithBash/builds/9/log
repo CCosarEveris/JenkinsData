@@ -1,0 +1,16 @@
+Started by user [8mha:////4MK/bBkIAsFQ5nD0nolEDXjIgt+N6VuwPyLZ37YNmCgOAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL95OT84sSi9EQAXLuKhcMAAAA=[0mChristian Cósar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DevOpsBootcampProjectwithBash
+[DevOpsBootcampProjectwithBash] $ /bin/sh -xe /tmp/jenkins4841420422443414138.sh
++ pwd
+/var/jenkins_home/workspace/DevOpsBootcampProjectwithBash
++ mkdir gitdownload
++ cd gitdownload
++ git clone https://github.com/CCosarEveris/Jenkins.git
+Cloning into 'Jenkins'...
+[DevOpsBootcampProjectwithBash] $ /bin/sh -xe /tmp/jenkins3366700067718087044.sh
++ cd gitdownload
++ mvn package
+/tmp/jenkins3366700067718087044.sh: 2: /tmp/jenkins3366700067718087044.sh: mvn: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

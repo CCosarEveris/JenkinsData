@@ -1,0 +1,86 @@
+Started by user [8mha:////4CmMv49Q1rK3Js3oT2MwD7EMimVAou2a11obSlWPVYm5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL95OT84sSi9EQAXLuKhcMAAAA=[0mChristian Cósar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DevOpsBootcampProjectSSH
+[SSH] commands:
+
+git clone https://github.com/CCosarEveris/Jenkins.git 
+pwd 
+cd Jenkins
+pwd
+
+[SSH] executing...
+Cloning into 'Jenkins'...
+/home/remote_user
+/home/remote_user
+
+[SSH] completed
+[SSH] exit-status: 0
+
+[SSH] commands:
+
+pwd
+cd /home/remote_user/Jenkins/ && mvn package
+
+[SSH] executing...
+/home/remote_user
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.everis.bootcamp:bootcamp[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding bootcamp 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mbootcamp[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (ANSI_X3.4-1968 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/remote_user/Jenkins/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mbootcamp[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding ANSI_X3.4-1968, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 1 source file to /home/remote_user/Jenkins/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mbootcamp[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (ANSI_X3.4-1968 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/remote_user/Jenkins/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mbootcamp[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding ANSI_X3.4-1968, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 1 source file to /home/remote_user/Jenkins/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mbootcamp[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /home/remote_user/Jenkins/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.everis.bootcamp.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mbootcamp[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/remote_user/Jenkins/target/bootcamp-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.890 s
+[[1;34mINFO[m] Finished at: 2019-10-19T17:17:40Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+
+[SSH] completed
+[SSH] exit-status: 0
+
+[SSH] commands:
+
+ java -cp /home/remote_user/Jenkins/target/bootcamp-1.0-SNAPSHOT.jar com.everis.bootcamp.App
+
+[SSH] executing...
+Hello World!
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

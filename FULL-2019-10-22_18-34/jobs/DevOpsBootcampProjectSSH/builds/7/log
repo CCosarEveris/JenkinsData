@@ -1,0 +1,45 @@
+Started by user [8mha:////4CmMv49Q1rK3Js3oT2MwD7EMimVAou2a11obSlWPVYm5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL95OT84sSi9EQAXLuKhcMAAAA=[0mChristian Cósar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DevOpsBootcampProjectSSH
+[SSH] commands:
+
+git clone https://github.com/CCosarEveris/Jenkins.git 
+pwd 
+cd Jenkins
+pwd
+
+[SSH] executing...
+Cloning into 'Jenkins'...
+/home/remote_user
+/home/remote_user
+
+[SSH] completed
+[SSH] exit-status: 0
+
+[SSH] commands:
+
+pwd
+mvn package
+
+[SSH] executing...
+/home/remote_user
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.129 s
+[[1;34mINFO[m] Finished at: 2019-10-18T22:42:06Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] The goal you specified requires a project to execute but there is no POM in this directory (/home/remote_user). Please verify you invoked Maven from the correct directory. -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

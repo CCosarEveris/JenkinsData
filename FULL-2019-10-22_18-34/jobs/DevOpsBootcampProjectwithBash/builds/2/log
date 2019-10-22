@@ -1,0 +1,12 @@
+Started by user [8mha:////4MK/bBkIAsFQ5nD0nolEDXjIgt+N6VuwPyLZ37YNmCgOAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL95OT84sSi9EQAXLuKhcMAAAA=[0mChristian Cósar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DevOpsBootcampProjectwithBash
+[DevOpsBootcampProjectwithBash] $ /bin/sh -xe /tmp/jenkins3081496981894498648.sh
++ pwd
+/var/jenkins_home/workspace/DevOpsBootcampProjectwithBash
+[DevOpsBootcampProjectwithBash] $ /bin/sh -xe /tmp/jenkins5837595383927505926.sh
++ mkdir gitdownload
+[DevOpsBootcampProjectwithBash] $ /bin/sh -xe /tmp/jenkins7533750520156517273.sh
++ git clone https://github.com/CCosarEveris/Jenkins.git
+Cloning into 'Jenkins'...
+Finished: SUCCESS

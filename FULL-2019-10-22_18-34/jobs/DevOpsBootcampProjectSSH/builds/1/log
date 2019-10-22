@@ -1,0 +1,14 @@
+Started by user [8mha:////4CmMv49Q1rK3Js3oT2MwD7EMimVAou2a11obSlWPVYm5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL95OT84sSi9EQAXLuKhcMAAAA=[0mChristian Cósar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DevOpsBootcampProjectSSH
+[SSH] script:
+
+echo "Prueba remota que está ejecutando en remoto"
+
+[SSH] executing...
+Prueba remota que está ejecutando en remoto
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

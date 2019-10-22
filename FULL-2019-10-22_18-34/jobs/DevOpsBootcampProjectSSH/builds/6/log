@@ -1,0 +1,17 @@
+Started by user [8mha:////4CmMv49Q1rK3Js3oT2MwD7EMimVAou2a11obSlWPVYm5AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL95OT84sSi9EQAXLuKhcMAAAA=[0mChristian Cósar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DevOpsBootcampProjectSSH
+[SSH] commands:
+
+pwd && echo "Prueba remota que está ejecutando en remoto" && git clone https://github.com/CCosarEveris/Jenkins.git && cd Jenkins && mvn package && java -cp target/bootcamp-1.0-SNAPSHOT.jar com.everis.bootcamp.App
+
+[SSH] executing...
+fatal: destination path 'Jenkins' already exists and is not an empty directory.
+/home/remote_user
+Prueba remota que está ejecutando en remoto
+
+[SSH] completed
+[SSH] exit-status: 128
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE
